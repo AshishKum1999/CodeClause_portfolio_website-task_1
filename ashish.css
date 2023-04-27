@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    align-items: center;
+}
+
+.navBar{
+    margin-left: 738px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 50px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+
+.contacts a:hover{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.dimension{
+    width: 100%;
+    height: 335px;
+}
+
+.nameBox{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.titleName{
+    border: 2px solid green;
+}
+
+.nm{
+    position: absolute;
+    font-size: 54px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.course{
+    position: absolute;
+    font-size: 36px;
+    margin-top: 154px;
+    margin-left: 100px;
+}
+
+.content{
+    margin-left:10px;
+}
+
+.content h2{
+    font-family: Verdana, sans-serif;
+}
+
+h3{
+    font-family: Georgia, serif;
+}
+
+.footer{
+    width: 110%;
+    height: 65px;
+    margin-top: 300px;
+    margin-left: -10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+ 
+.footer1{
+    width: 110%;
+    height: 65px;
+    margin-top: 2000px;
+    margin-left: -10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.titleBox{
+    width: 110%;
+    height: 65px;
+    margin-left: -10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleBox h2{
+    margin-left: -150px;
+    color: white;
+}
+
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contacts a{
+    background-color: white;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+.imag{
+    display: flex;
+    position: relative;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.imag h1{
+    position: absolute;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.imag h2{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 56px;
+}
+
+.ipic{
+    width: 100%;
+    height: 100%;
+}
+
+.cnt{
+    margin-top: 100px;
+    width: 921px;
+    height: 360px;
+}
+
+.cnt p{
+    margin-left: 200px;
+    font-size: 24px;
+}
+
+.projects{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+::selection{
+    background-color: yellow;
+    color: red;
+}
